@@ -30,7 +30,7 @@
   
   </servlet-mapping>
   
-   -->
+   
    
    
    <servlet>
@@ -45,9 +45,33 @@
   <url-pattern>/StudentForm</url-pattern>
   
   </servlet-mapping>
+  -->
   
   
   
+  
+  
+  <servlet>
+  <servlet-name>Employee</servlet-name>
+  <servlet-class>com.Employee.EmployeeSer</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Employee</servlet-name>
+  <url-pattern>/EmpServ</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 
+  <servlet>
+  <servlet-name>EmployeeE</servlet-name>
+  <servlet-class>com.Employee.Employee2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>EmployeeE</servlet-name>
+  <url-pattern>/EmpData</url-pattern>
+  </servlet-mapping>
+   -->
   
   
   <welcome-file-list>
