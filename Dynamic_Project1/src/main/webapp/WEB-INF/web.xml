@@ -45,7 +45,7 @@
   <url-pattern>/StudentForm</url-pattern>
   
   </servlet-mapping>
-  -->
+ 
   
   
   
@@ -61,7 +61,7 @@
   <url-pattern>/EmpServ</url-pattern>
   </servlet-mapping>
   
-  <!-- 
+
   <servlet>
   <servlet-name>EmployeeE</servlet-name>
   <servlet-class>com.Employee.Employee2</servlet-class>
@@ -72,6 +72,25 @@
   <url-pattern>/EmpData</url-pattern>
   </servlet-mapping>
    -->
+   
+   <servlet>
+   		<servlet-name>Cookie</servlet-name>
+   		<servlet-class>com.SessionCookie.CookieServ</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   		<servlet-name>Cookie</servlet-name>
+   		<url-pattern>/Cookie1</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet>
+   		<servlet-name>Cookie2</servlet-name>
+   		<servlet-class>com.SessionCookie.CookieServ2</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   		<servlet-name>Cookie2</servlet-name>
+   		<url-pattern>/Cookie2</url-pattern>
+   </servlet-mapping>
   
   
   <welcome-file-list>

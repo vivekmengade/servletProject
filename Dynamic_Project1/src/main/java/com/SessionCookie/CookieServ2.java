@@ -3,31 +3,18 @@ package com.SessionCookie;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class CookieServ extends HttpServlet{
+public class CookieServ2 extends HttpServlet{
+
 	@Override
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
-		
 		res.setContentType("text/html");
 		PrintWriter writer= res.getWriter();
-		writer.println("<h1>Cookie Session Tracking</h1>");
-		
-		String name= req.getParameter("uname");
-		writer.println("<h1>Nmae:- "+name+"</h1>");
-		
-		writer.println("<h3><a href='Cookie2'>GoToCookie2</a></h3>");
-		
-		
-		
-//		Cookie Creation
-		Cookie c1=new Cookie("U_name", name);
-		res.addCookie(c1);
-		
-		
+		writer.println("<h1>In Cookie Servelet 2</h1>");
 		
 	}
+	
 }
