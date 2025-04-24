@@ -4,9 +4,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>JSP page</title>
 </head>
 <body>
-
+	<form action="MathOp.jsp">
+	
+			<h4>
+				number 1:<input type="number" name="num1" > 
+			</h4>
+			<br>
+			<h4>
+				number 2:<input type="number" name="num2" >
+			</h4>
+			<br>
+			
+			<button type="submit">Submit</button>
+	
+	</form>
 </body>
 </html>
